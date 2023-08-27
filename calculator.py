@@ -1,6 +1,7 @@
 import os, time, sys
 
 def penjumlahan():
+    print("Penjumlahan (+)\n")
     number1 = int(input("Masukkan Angka Pertama: "))
     number2 = int(input("Masukkan Angka Kedua: "))
     result = number1 + number2
@@ -9,6 +10,7 @@ def penjumlahan():
     time.sleep(3)
 
 def pengurangan():
+    print("Pengurangan (-)\n")
     number1 = int(input("Masukkan Angka Pertama: "))
     number2 = int(input("Masukkan Angka Kedua: "))
     result = number1 - number2
@@ -17,6 +19,7 @@ def pengurangan():
     time.sleep(3)
 
 def perkalian():
+    print("Perkalian (*)\n")
     number1 = int(input("Masukkan Angka Pertama: "))
     number2 = int(input("Masukkan Angka Kedua: "))
     result = number1 * number2
@@ -25,6 +28,7 @@ def perkalian():
     time.sleep(3)
 
 def pembagian():
+    print("Pembagian (/)\n")
     number1 = int(input("Masukkan Angka Pertama: "))
     number2 = int(input("Masukkan Angka Kedua: "))
     result = number1 / number2
@@ -48,6 +52,7 @@ while True:
     """)
     
     calculate = input("1. Penjumlahan (+)\n2. Pengurangan (-)\n3. Perkalian (*)\n4. Pembagian (/)\n5. Exit\n> ")
+    print()
     if calculate == "1":
         penjumlahan()
     elif calculate == "2":
