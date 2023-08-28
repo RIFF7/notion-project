@@ -3,7 +3,7 @@
 
 <h1 align="center">Hi 👋, I'm Syarifudin Jaelani</h1>
 
-<p>Repo ini akan digunakan untuk mengumpulkan project sederhana sampai dengan complex menggunakan bahasa pemrograman Python 😉</p>
+<p>Repo ini akan digunakan untuk mengumpulkan project sederhana sampai dengan complex menggunakan bahasa pemrograman Python dengan harapan dapat menambah insight baru bagi pemilik repo dan memperluas pengetahuan baru dalam bidang programming menggunakan bahasa pemrograman Python 😉</p>
 
 <h3>List Project</h3>
 
