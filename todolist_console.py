@@ -1,7 +1,7 @@
 # Membuat Tampilan list
 # Name | Date | List | Priority
 
-import os, time
+import os, time, sys
 
 TodoList = []
 
@@ -49,6 +49,7 @@ def edit():
     
     if not found:
         print("Nama tidak ada pada list, silakan menginat-ingat kembali!")
+        time.sleep(2)
         return
     
     for row in TodoList:
@@ -61,6 +62,7 @@ def edit():
     priority = input("Prioritas: ").capitalize()
     row = [name, date, cases, priority]
     TodoList.append(row)
+    print("Done Edited!")
     
 def remove():
     time.sleep(1)
@@ -73,8 +75,28 @@ def remove():
     
     if not found:
         print("Nama tidak ada pada list, silakan menginat-ingat kembali!")
+        time.sleep(2)
         return
     
     for row in TodoList:
         if character in row:
             TodoList.remove(row)
+            print("Done Remove!")
+
+while True:
+    print()
+    print("Simple To Do List With Console!")
+    print()
+    menu = input("1. Add\n2. View\n3. Edit\n4. Remove\n5. Exit\n> ")
+    if menu == "1":
+        add()
+    elif menu == "2":
+        view()
+    elif menu == "3":
+        edit()
+    elif menu == "4":
+        remove()
+    else:
+        sys.exit()
+    time.sleep(1)
+    os.system("cls")
