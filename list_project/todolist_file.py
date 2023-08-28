@@ -25,35 +25,19 @@ def view():
     time.sleep(1)
     os.system("cls")
     option = input("1. Tampilkan Semua Prioritas\n2. Pilih Berdasarkan Prioritas\n> ")
-    h1 = "Nama"
-    h2 = "Tenggat Waktu"
-    h3 = "Daftar Kerjaan"
-    h4 = "Prioritas"
-    
-    print(f"{h1:^30}{h2:^30}{h3:30}{h4:^30}")
-    
     if option == "1":
         for row in TodoList:
             for item in row:
-                #print(item, end=" | ")
-                print(f"{item[0]:^30}{item[1]:^30}{item[2]:^30}{item[3]:^30}")
+                print(item, end=" | ")
             print()
         print()
     else:
         priority = input("Silakan Masukkan Prioritas: ")
         print()
-        h1 = "Nama"
-        h2 = "Tenggat Waktu"
-        h3 = "Daftar Kerjaan"
-        h4 = "Prioritas"
-        
-        print(f"{h1:^30}{h2:^30}{h3:30}{h4:^30}")
-        
         for row in TodoList:
             if priority in row:
                 for item in row:
-                    #print(item, end=" | ")
-                    print(f"{item[0]:^30}{item[1]:^30}{item[2]:^30}{item[3]:^30}")
+                    print(item, end=" | ")
                 print()
         print()
     time.sleep(3)
