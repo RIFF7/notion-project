@@ -11,7 +11,9 @@
 
 - 📫 **Simple To Do List [Console]**
 
-- ⚡ **Coming Soon**
+- 🗒️  **To Do List dengan file ".txt" sebagai penyimpanan data**
+
+- ⚡ **Coming Soon Project....** 
 
 <h3>Languages</h3>
 
