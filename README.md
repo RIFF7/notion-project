@@ -11,7 +11,7 @@
 
 - 📫 **Simple To Do List [Console]**
 
-- 🗒️  **To Do List dengan file ".txt" sebagai penyimpanan data**
+- 🗒️  **To Do List dengan file [.txt] sebagai penyimpanan data**
 
 - ⚡ **Coming Soon Project....** 
 
