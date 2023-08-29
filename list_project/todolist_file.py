@@ -1,3 +1,6 @@
+# Membuat To Do List dengan penyimpanan file ".txt"
+# Serta membuat tampilan view tertata rapih
+
 import os, time, sys
 
 TodoList = []
