@@ -12,7 +12,7 @@ except:
 def add():
     time.sleep(1)
     os.system("cls") # -> jika kamu menggunakan MacOS atau Linux, maka silakan untuk ubah menjadi "clear"
-    name = input("Nama: ").capitalize()
+    name = input("Nama: ").title()
     date = input("Tenggat Waktu: ")
     cases = input("Daftar Kerjaan: ")
     priority = input("Prioritas: ").capitalize()
@@ -25,19 +25,22 @@ def view():
     time.sleep(1)
     os.system("cls")
     option = input("1. Tampilkan Semua Prioritas\n2. Pilih Berdasarkan Prioritas\n> ")
+    h1 = "Nama"
+    h2 = "Tenggat Waktu"
+    h3 = "Daftar Kerjaan"
+    h4 = "Prioritas"
     if option == "1":
+        print(f"{h1:^30}{h2:^30}{h3:^30}{h4:^30}")
         for row in TodoList:
-            for item in row:
-                print(item, end=" | ")
-            print()
+            print(f"{row[0]:^30}{row[1]:^30}{row[2]:^30}{row[3]:^30}")
         print()
     else:
-        priority = input("Silakan Masukkan Prioritas: ")
+        priority = input("Silakan Masukkan Prioritas: ").title()
         print()
         for row in TodoList:
             if priority in row:
-                for item in row:
-                    print(item, end=" | ")
+                print(f"{h1:^30}{h2:^30}{h3:^30}{h4:^30}")
+                print(f"{row[0]:^30}{row[1]:^30}{row[2]:^30}{row[3]:^30}")
                 print()
         print()
     time.sleep(3)
@@ -45,7 +48,7 @@ def view():
 def edit():
     time.sleep(1)
     os.system("cls")
-    character = input("Masukkan nama list yang dicari: ")
+    character = input("Masukkan nama list yang dicari: ").title()
     found = False
     for row in TodoList:
         if character in row:
@@ -60,7 +63,7 @@ def edit():
         if character in row:
             TodoList.remove(row)
     
-    name = input("Nama: ").capitalize()
+    name = input("Nama: ").title()
     date = input("Tenggat Waktu: ")
     cases = input("Daftar Kerjaan: ")
     priority = input("Prioritas: ").capitalize()
@@ -105,6 +108,6 @@ while True:
     time.sleep(1)
     os.system("cls")
     
-    file = open("TodoList.txt", "a+")
+    file = open("TodoList.txt", "w")
     file.write(str(TodoList))
     file.close()
