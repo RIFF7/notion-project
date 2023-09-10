@@ -11,10 +11,10 @@ def start_game():
     print("S or s: Menggerakkan ke Bawah")
     print("D or d: Menggerakkan ke Kanan")
     
-    add_new_mat(mat)
+    add_new_2(mat)
     return mat
 
-def add_new_mat(mat):
+def add_new_2(mat):
     row = random.randint(0, 3)
     column = random.randint()
     
