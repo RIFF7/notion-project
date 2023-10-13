@@ -13,6 +13,8 @@
 
 - 🗒️  **To Do List dengan file [.txt] sebagai penyimpanan data**
 
+- 🛍 **Create calculations for item prices in the Dictionary [Console]**
+
 - ⚡ **Coming Soon Project....** 
 
 <h3>Languages</h3>
