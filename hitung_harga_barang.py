@@ -62,18 +62,43 @@ harga_celana = celana["harga"] - celana["diskon"]
 harga_jaket = jaket["harga"] - jaket["diskon"]
 harga_aksesoris = aksesoris["harga"] - aksesoris["diskon"]
 
+# Code dibawah adalah code penjabawannya
+# namu kita juga bisa memperpendek code dibawah 
+# dengan code pada contoh selanjutnya
+
+# -- Sebelum Penyederhanaan Code
 # Setelah mendapatkan harga masing - masing item setelah
 # dikurangi diskon, selanjutnya kita akan menjumlahkan total hargannya
 
-total_harga = harga_sepatu + harga_baju + harga_celana + harga_jaket + harga_aksesoris
+# total_harga = harga_sepatu + harga_baju + harga_celana + harga_jaket + harga_aksesoris
 
-# Setelah mendapatkan total harga, selanjutnya kita akan melakukan perhitungan
-# dari total pajak sebanyak 10% dari total harga
+# # Setelah mendapatkan total harga, selanjutnya kita akan melakukan perhitungan
+# # dari total pajak sebanyak 10% dari total harga
 
-total_pajak = total_harga * 0.1
+# total_pajak = total_harga * 0.1
 
-# Setelah mendapatkan total pajak
-# selanjutnya kita akan menampilkan harga total keseluruhan
-# yang perlu kita bayarkan 
+# # Setelah mendapatkan total pajak
+# # selanjutnya kita akan menampilkan harga total keseluruhan
+# # yang perlu kita bayarkan 
 
-print("Harga yang perlu kita bayarkan adalah", total_harga + total_pajak)
+# print("Harga yang perlu kita bayarkan adalah", total_harga + total_pajak)
+
+# -- Setelah penyederhanaan Code
+
+"""
+    Penjelasan untuk 1.1
+    
+    Saat kita mengalikan suatu nilai dengan 1.1,
+    kita sebenarnya menambahkan 10% dari nilai 
+    tersebut dan menghasilkan total 110% dari 
+    nilai awal, atau dengan kata lain, 
+    meningkatkannya sebesar 10%. 
+    Jadi, 1.1 adalah faktor pengali yang menghasilkan 
+    peningkatan sebesar 10%.
+    
+    Faktor 1.1 digunakan untuk meningkatkan 
+    total harga sebesar 10% untuk pajak
+"""
+total_harga = (harga_sepatu + harga_baju + harga_celana + harga_jaket + harga_aksesoris) * 1.1
+
+print("Harga yang haru dibayarkan adalah", round(total_harga))
