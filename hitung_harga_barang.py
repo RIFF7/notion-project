@@ -35,7 +35,7 @@ baju = {
 celana = {
     "nama": "Celanan Jeans",
     "harga": 175000,
-    "diskon": 23500
+    "diskon": 15000
 }
 
 jaket = {
