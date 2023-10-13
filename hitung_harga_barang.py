@@ -101,4 +101,4 @@ harga_aksesoris = aksesoris["harga"] - aksesoris["diskon"]
 """
 total_harga = (harga_sepatu + harga_baju + harga_celana + harga_jaket + harga_aksesoris) * 1.1
 
-print("Harga yang haru dibayarkan adalah", round(total_harga))
+print("Harga yang harus dibayarkan adalah", round(total_harga))
