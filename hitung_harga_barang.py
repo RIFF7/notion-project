@@ -50,3 +50,30 @@ aksesoris = {
     "diskon": 17000
 }
 
+# Setelah membuat dictionary untuk menjabarkan barang, 
+# harga dan diskon dari 5 item yang ada
+# selanjutnya kita akan melakukan perhitungan
+# untuk harga masing - masing item setelah dikurangi
+# diskon yang sudah dibuat
+
+harga_sepatu = sepatu["harga"] - sepatu["diskon"]
+harga_baju = baju["harga"] - baju["diskon"]
+harga_celana = celana["harga"] - celana["diskon"]
+harga_jaket = jaket["harga"] - jaket["diskon"]
+harga_aksesoris = aksesoris["harga"] - aksesoris["diskon"]
+
+# Setelah mendapatkan harga masing - masing item setelah
+# dikurangi diskon, selanjutnya kita akan menjumlahkan total hargannya
+
+total_harga = harga_sepatu + harga_baju + harga_celana + harga_jaket + harga_aksesoris
+
+# Setelah mendapatkan total harga, selanjutnya kita akan melakukan perhitungan
+# dari total pajak sebanyak 10% dari total harga
+
+total_pajak = total_harga * 0.1
+
+# Setelah mendapatkan total pajak
+# selanjutnya kita akan menampilkan harga total keseluruhan
+# yang perlu kita bayarkan 
+
+print("Harga yang perlu kita bayarkan adalah", total_harga + total_pajak)
