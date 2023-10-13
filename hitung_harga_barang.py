@@ -62,11 +62,14 @@ harga_celana = celana["harga"] - celana["diskon"]
 harga_jaket = jaket["harga"] - jaket["diskon"]
 harga_aksesoris = aksesoris["harga"] - aksesoris["diskon"]
 
-# Code dibawah adalah code penjabawannya
-# namu kita juga bisa memperpendek code dibawah 
+# Code dibawah adalah code penjabarannya
+# namun kita juga bisa memperpendek code dibawah 
 # dengan code pada contoh selanjutnya
 
+# =============================================================================================
+
 # -- Sebelum Penyederhanaan Code
+
 # Setelah mendapatkan harga masing - masing item setelah
 # dikurangi diskon, selanjutnya kita akan menjumlahkan total hargannya
 
@@ -82,6 +85,8 @@ harga_aksesoris = aksesoris["harga"] - aksesoris["diskon"]
 # # yang perlu kita bayarkan 
 
 # print("Harga yang perlu kita bayarkan adalah", total_harga + total_pajak)
+
+# ==============================================================================================
 
 # -- Setelah penyederhanaan Code
 
