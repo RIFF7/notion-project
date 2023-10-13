@@ -39,7 +39,7 @@ def pembagian():
 while True:
     time.sleep(1)
     os.system("cls")
-
+    print()
     print("Simple Calculator\n")
 
     print("""
