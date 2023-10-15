@@ -66,4 +66,38 @@ jasa_transformation = transformation["harga_harian"] * transformation["total_har
 
 total_harga = (jasa_warehousing + jasa_cleanning + jasa_integration + jasa_transformation)
 
-print("Tagihan yang perlu", tagihan_tertuju, "bayarkan adalah sebesar", total_harga)
+# Pengembangan tahap ke-1
+# -----------------------
+# print("Tagihan yang perlu", tagihan_tertuju, "bayarkan adalah sebesar", total_harga)
+
+# ====================================================================================
+
+# Pengembangan tahap ke-2 menggunakan if - elif dan else
+# --------------------------------------------------------
+
+# Jika kita membuat seolah ini adalah sebuah surel/email
+# yang mana memiliki jam disetiap pengirimannya
+# maka kita perlu melakukan set jam terlebih dahulu
+
+print("""
+      =======================================================
+      | Batas Pengiriman E-mail adalah pukul 21 (21:00) WIB |
+      =======================================================
+      """)
+
+jam = int(input("Masukkan Jam Saat ini tanpa diikuti oleh menit: ")) # Example -> input: 17
+print()
+print("Tagihan Kepada:")
+print(tagihan_tertuju)
+
+if jam >= 19 and jam < 21:
+    print("Selamat Malam, anda memiliki tagihan pembangunan yang perlu dibayar sebesar:")
+elif jam >= 15 and jam <= 18:
+    print("Selamat Sore, anda memiliki tagihan pembangunan yang perlu dibayar sebesar:")
+elif jam >= 11 and jam <= 14:
+    print("Selamat Siang, anda memiliki tagihan pembangunan yang perlu dibayar sebesar:")
+else:
+    print("Selamat Pagi, anda memiliki tagihan pembangunan yang perlu dibayar sebesar:")
+
+print(total_harga)
+print()
