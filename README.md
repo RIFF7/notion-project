@@ -15,6 +15,8 @@
 
 - 🏢 **Simple calculation of company construction [Console]: perhitungan_data_warehouse.py**
 
+- 🧮 **Control Sructure While Loop [Console]: struktur_control_whileLoop.py**
+
 - ⚡ **Coming Soon Project....** 
 
 <h3>List Complex Project</h3>
