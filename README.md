@@ -3,23 +3,23 @@
 
 <h1 align="center">Hi 👋, I'm Syarifudin Jaelani</h1>
 
-<p>Repo ini akan digunakan untuk mengumpulkan project sederhana sampai dengan complex menggunakan bahasa pemrograman Python dengan harapan dapat menambah insight baru bagi pemilik repo dan memperluas pengetahuan baru dalam bidang programming menggunakan bahasa pemrograman Python 😉</p>
+<p>This repo will be used to collect simple to complex projects using the Python programming language with the hope of adding new insights for repo owners and expanding new knowledge in the field of programming using the Python programming language. 😉</p>
 
 <h3>List Simple Project</h3>
 
-- 🖩 **Simple Calculator [Console] -> calculator.py**
+- 🖩 **Simple Calculator [Console]: calculator.py**
 
-- 📫 **Simple To Do List [Console] -> todolist_console.py**
+- 📫 **Simple To Do List [Console]: todolist_console.py**
 
-- 🛍 **Create calculations for item prices in the Dictionary [Console] -> hitung_harga_barang.py**
+- 🛍 **Create calculations for item prices in the Dictionary [Console]: hitung_harga_barang.py**
 
-- 🏢 **Simple calculation of company construction [Console] -> perhitungan_data_warehouse.py**
+- 🏢 **Simple calculation of company construction [Console]: perhitungan_data_warehouse.py**
 
 - ⚡ **Coming Soon Project....** 
 
 <h3>List Complex Project</h3>
 
-- 🗒️  **To Do List with [.txt] file as data storage -> Folder list_project**
+- 🗒️  **To Do List with [.txt] file as data storage: Folder list_project**
 
 - ⚡ **Coming Soon Project....** 
 
