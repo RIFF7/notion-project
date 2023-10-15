@@ -5,17 +5,21 @@
 
 <p>Repo ini akan digunakan untuk mengumpulkan project sederhana sampai dengan complex menggunakan bahasa pemrograman Python dengan harapan dapat menambah insight baru bagi pemilik repo dan memperluas pengetahuan baru dalam bidang programming menggunakan bahasa pemrograman Python 😉</p>
 
-<h3>List Project</h3>
+<h3>List Simple Project</h3>
 
-- 🖩 **Simple Calculator [Console]**
+- 🖩 **Simple Calculator [Console] -> calculator.py**
 
-- 📫 **Simple To Do List [Console]**
+- 📫 **Simple To Do List [Console] -> todolist_console.py**
 
-- 🗒️  **To Do List with [.txt] file as data storage**
+- 🛍 **Create calculations for item prices in the Dictionary [Console] -> hitung_harga_barang.py**
 
-- 🛍 **Create calculations for item prices in the Dictionary [Console]**
+- 🏢 **Simple calculation of company construction [Console] -> perhitungan_data_warehouse.py**
 
-- 🏢 **Simple calculation of company construction [Console]**
+- ⚡ **Coming Soon Project....** 
+
+<h3>List Complex Project</h3>
+
+- 🗒️  **To Do List with [.txt] file as data storage -> Folder list_project**
 
 - ⚡ **Coming Soon Project....** 
 
