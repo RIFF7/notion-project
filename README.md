@@ -17,6 +17,8 @@
 
 - 🧮 **Control Sructure While Loop [Console]: struktur_control_whileLoop.py**
 
+- 🛑 **Use of break in while loop: penggunaan_break_whileLoop.py**
+
 - ⚡ **Coming Soon Project....** 
 
 <h3>List Complex Project</h3>
