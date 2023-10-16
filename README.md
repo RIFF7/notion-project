@@ -19,6 +19,8 @@
 
 - 🛑 **Use of break in while loop: penggunaan_break_whileLoop.py**
 
+- ▶ **Use of continue in while loop: penggunaan_continue_whileLoop.py**
+
 - ⚡ **Coming Soon Project....** 
 
 <h3>List Complex Project</h3>
