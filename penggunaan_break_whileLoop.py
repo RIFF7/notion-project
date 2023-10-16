@@ -7,7 +7,7 @@
     perintah perhitungan akan dihentikan
     
     - Tagihan 1 = Rp 73.000
-    - Tagihan 2 = Rp - 67.000
+    - Tagihan 2 = Rp 67.000
     - Tagihan 3 = Rp 350.000
     - Tagihan 4 = Rp 250.000
     - Tagihan 5 = Rp - 125.000
