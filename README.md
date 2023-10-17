@@ -21,6 +21,8 @@
 
 - ▶ **Use of continue in while loop: penggunaan_continue_whileLoop.py**
 
+- 🔁 **Iterasi with for loop: perhitungan_with_forLoop.py**
+
 - ⚡ **Coming Soon Project....** 
 
 <h3>List Complex Project</h3>
