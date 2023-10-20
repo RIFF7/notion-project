@@ -21,7 +21,11 @@ bayar_tagihan = [
     ]
 
 print()
-print("Penggunaan Perulangan dengan statement 'break'")
+print("""
+      --------------------------------------------------
+      | Penggunaan Perulangan dengan statement 'break' |
+      --------------------------------------------------
+      """)
 print()
 
 total_tagihan_break = 0
@@ -37,10 +41,14 @@ print()
 print("Total tagihan %d," % total_tagihan_break)
 print()
 
-print("==============================================")
+print("==============================================================")
 print()
 
-print("Penggunaan Perulangan dengan statement 'continue'")
+print("""
+      -----------------------------------------------------
+      | Penggunaan Perulangan dengan statement 'continue' |
+      -----------------------------------------------------
+      """)
 print()
 
 for tagihan in bayar_tagihan:
@@ -51,4 +59,57 @@ for tagihan in bayar_tagihan:
 
 print()
 print("Total tagihan setelah iterasi %d" % total_tagihan_continue)
+print()
+
+print("==============================================================")
+print()
+
+"""
+    Dalam perulangan for juga kita dapat menggunakan
+    nested loops, yaitu perulangan bersarang.
+    
+    Dalam nested loops kita dapat mengkombinasikan
+    (menambahkan) struktur perulangan lain didalamnya
+    sebagai contoh dengan data dibawah ini:
+    
+    Nama Buah: Apel, Duku, Jeruk
+    Nama Daerah: Malang, Palembang, Medan
+    
+    Dibuat hingga menjadi data table 
+    seperti dibawah ini:
+    
+    -----------------------------------
+    |   Nama Buah   |   Nama Daerah   |
+    -----------------------------------
+    |    Data1      |     Data1       |
+    -----------------------------------
+    |    Data2      |     Data2       |
+    -----------------------------------
+    |    DataN      |     DataN       |
+    -----------------------------------
+"""
+
+print("""
+      --------------------------------
+      | Penggunaan Neste Loops 'for' |
+      --------------------------------
+      """)
+print()
+
+list_daerah = ['Malang', 'Palembang', 'Medan']
+list_buah = ['Apel', 'Duku', 'Jeruk']
+
+h1 = "Nama Buah"
+h2 = "Nama Daerah"
+
+print("-----------------------------------------")
+print(f"| {h1:^17} | {h2:^17} |")
+print("-----------------------------------------")
+print()
+
+for row in list_buah:
+    for item in list_daerah:
+        print(f"| {row:^17} | {item:^17} |")
+        print("-----------------------------------------")
+    print()
 print()
