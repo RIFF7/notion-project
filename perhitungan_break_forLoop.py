@@ -105,11 +105,9 @@ h2 = "Nama Daerah"
 print("-----------------------------------------")
 print(f"| {h1:^17} | {h2:^17} |")
 print("-----------------------------------------")
-print()
 
 for row in list_buah:
     for item in list_daerah:
         print(f"| {row:^17} | {item:^17} |")
         print("-----------------------------------------")
-    print()
 print()
