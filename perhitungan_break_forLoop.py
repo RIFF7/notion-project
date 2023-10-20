@@ -20,6 +20,7 @@ bayar_tagihan = [
     250000, -125000, 100000, -23000
     ]
 
+print()
 print("Penggunaan Perulangan dengan statement 'break'")
 total_tagihan_break = 0
 
