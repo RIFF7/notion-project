@@ -22,7 +22,10 @@ bayar_tagihan = [
 
 print()
 print("Penggunaan Perulangan dengan statement 'break'")
+print()
+
 total_tagihan_break = 0
+total_tagihan_continue = 0
 
 for tagihan in bayar_tagihan:
     if tagihan < 0:
@@ -32,4 +35,20 @@ for tagihan in bayar_tagihan:
 
 print()
 print("Total tagihan %d," % total_tagihan_break)
+print()
+
+print("==============================================")
+print()
+
+print("Penggunaan Perulangan dengan statement 'continue'")
+print()
+
+for tagihan in bayar_tagihan:
+    if tagihan< 0:
+        print("Terdapat angka minus dalam perhitungan tagihan, untuk tagihan %d dilewati" % tagihan)
+        continue
+    total_tagihan_continue += tagihan
+
+print()
+print("Total tagihan setelah iterasi %d" % total_tagihan_continue)
 print()
