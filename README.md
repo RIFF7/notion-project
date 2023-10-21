@@ -7,29 +7,26 @@
 
 <h3>List Simple Project</h3>
 
-- 🖩 **Simple Calculator [Console]: calculator.py**
-
-- 📫 **Simple To Do List [Console]: todolist_console.py**
-
-- 🛍 **Create calculations for item prices in the Dictionary [Console]: hitung_harga_barang.py**
-
-- 🏢 **Simple calculation of company construction [Console]: perhitungan_data_warehouse.py**
-
-- 🧮 **Control Sructure While Loop [Console]: struktur_control_whileLoop.py**
-
-- 🛑 **Use of break in while loop: penggunaan_break_whileLoop.py**
-
-- ▶ **Use of continue in while loop: penggunaan_continue_whileLoop.py**
-
-- 🔁 **Iterasi with for loop: perhitungan_with_forLoop.py**
-
-- ⚡ **Coming Soon Project....** 
+|       List Simple Code      |    Name Simple Code         |
+|   ------------------------  |  ---------------------      |
+|   🧮 **Simple Calculator**  |      calculator.py          |
+|   📫 **Simple To Do List**  |   todolist_console.py       |
+|   🛍 **Create calculations for item prices in the Dictionary**  |   hitung_harga_barang.py |
+|   🏢 **Simple calculation of company construction**  |   perhitungan_data_warehouse.py |
+|   🎮 **Control Sructure While Loop** | struktur_control_whileLoop.py |
+|   🛑 **Use of break in while loop**  | penggunaan_break_whileLoop.py |
+|   ▶ **Use of continue in while loop**|penggunaan_continue_whileLoop.py|
+|   🔁 **Iterasi with for loop**       | perhitungan_with_forLoop.py |
+|   🎌 **Break with for loops**|perhitungan_break_forLoop.py|
+|   🎌 **Calculate Cash Flow**| perhitungan_cashFlow.py |
+|   ⚡ **Coming Soon Project....**     | Coming Soon Project....     |
 
 <h3>List Complex Project</h3>
 
-- 🗒️  **To Do List with [.txt] file as data storage: Folder list_project**
-
-- ⚡ **Coming Soon Project....** 
+|       List Complex Code      |    Name Complex Code        |
+|   ------------------------   |  ---------------------      |
+| 🗒️ **To Do List with [.txt] file as data storage** | Folder list_project |
+| ⚡ **Coming Soon Project....** | Coming Soon Project.... |
 
 <h3>Languages</h3>
 
