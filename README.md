@@ -18,7 +18,7 @@
 |   ▶ **Use of continue in while loop**|penggunaan_continue_whileLoop.py|
 |   🔁 **Iterasi with for loop**       | perhitungan_with_forLoop.py |
 |   🎌 **Break with for loops**|perhitungan_break_forLoop.py|
-|   🎌 **Calculate Cash Flow**| perhitungan_cashFlow.py |
+|   〽 **Calculate Cash Flow**| perhitungan_cashFlow.py |
 |   ⚡ **Coming Soon Project....**     | Coming Soon Project....     |
 
 <h3>List Complex Project</h3>
