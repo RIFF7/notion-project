@@ -39,5 +39,15 @@ for dana in list_cash_flow:
 total_pengeluaran *= -1
 
 # Code dibawah diguanakan utnuk menampilkan hasil
-print("Total Pemasukan Rp.", total_pemasukan)
-print("Total pengeluaran Rp.", total_pengeluaran)
+# print("Total Pemasukan Rp.", total_pemasukan)
+# print("Total pengeluaran Rp.", total_pengeluaran)
+
+h1 = "Total Pemasukan"
+h2 = "Total Pengeluaran"
+
+print("-----------------------------------------------")
+print(f"| {h1:^20} | {h2:^20} |")
+print("-----------------------------------------------")
+
+print(f"| {total_pemasukan:^20} | {total_pengeluaran:^20} |")
+print("-----------------------------------------------")
