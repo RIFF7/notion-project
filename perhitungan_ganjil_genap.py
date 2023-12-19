@@ -33,9 +33,9 @@ kendaraan_ganjil = 0
 
 for plat_nomor in list_plat_nomor:
     if plat_nomor % 2 == 0:
-        kendaraan_genap += 1
+        kendaraan_genap += 1 # code ini akan menambahkan data kendaraan_genap jika nilai dalam list habis dibagi 2
     else:
-        kendaraan_ganjil += 1
+        kendaraan_ganjil += 1 # code ini akan menambahkan data kendaraan_ganjil jika nilai dalam list tidak habis dibagi 2
 
 # Total pengeluaran untuk kendaraan dengan nomor plat ganjil
 # dan genap dalam 1 bulan
